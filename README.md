@@ -1,5 +1,11 @@
 # `assert_enum_variants!`
 
+[![Crates.io](https://img.shields.io/crates/v/assert_enum_variants)](https://crates.io/crates/assert_enum_variants)
+[![Downloads](https://img.shields.io/crates/d/assert_enum_variants.svg)](https://crates.io/crates/assert_enum_variants)
+[![Documentation](https://docs.rs/assert_enum_variants/badge.svg)](https://docs.rs/assert_enum_variants)
+[![License](https://img.shields.io/crates/l/assert_enum_variants)](https://crates.io/crates/assert_enum_variants)
+[![Dependency Status](https://deps.rs/repo/github/JohnScience/assert_enum_variants/status.svg)](https://deps.rs/repo/github/JohnScience/assert_enum_variants)
+
 A Rust macro that asserts that all variants of an enum are as provided in the macro
 invocation.
 

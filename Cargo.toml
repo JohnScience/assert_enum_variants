@@ -1,6 +1,6 @@
 [package]
 name = "assert_enum_variants"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
 description = "A Rust macro that asserts that all variants of an enum are as provided in the macro invocation."
