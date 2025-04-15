@@ -141,6 +141,7 @@ macro_rules! assert_enum_variants {
         const _: () = {
             #[allow(unreachable_code)]
             if false {
+                #[allow(clippy::diverging_sub_expression)]
                 let _unreachable_obj: $enum = core::unreachable!();
 
                 #[allow(unused_imports)]
@@ -163,7 +164,7 @@ mod tests {
         pub enum MyEnum {
             A,
             B(u32),
-            C { a: String, b: u32 },
+            C { a: u64, b: u32 },
         }
     }
 
